@@ -7,18 +7,29 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
+        "illuminate/auth": "^9.5",
+        "illuminate/contracts": "^9.5",
+        "illuminate/http": "^9.5",
+        "illuminate/support": "^9.5",
         "laravel/framework": "^9.2",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
-        "laravel/ui": "^3.4"
+        "laravel/ui": "^3.4",
+        "lcobucci/jwt": "^4.1",
+        "namshi/jose": "^7.2",
+        "nesbot/carbon": "^2.57"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
+        "cartalyst/sentinel": "^9.5",
+        "illuminate/console": "^9.5",
+        "illuminate/database": "^9.5",
+        "illuminate/routing": "^9.5",
+        "mockery/mockery": "^1.5",
         "laravel/sail": "^1.0.1",
-        "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
-        "phpunit/phpunit": "^9.5.10",
-        "spatie/laravel-ignition": "^1.0"
+        "spatie/laravel-ignition": "^1.0",
+        "phpunit/phpunit": "^9.5"
     },
     "autoload": {
         "psr-4": {
